@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv"
+setenv VIRTUAL_ENV "/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"

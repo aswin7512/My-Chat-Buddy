@@ -43,21 +43,21 @@ build_time_vars = {'ABIFLAGS': '',
  'CONFINCLUDEDIR': '/usr/local/include',
  'CONFINCLUDEPY': '/usr/local/include/python3.11',
  'COREPYTHONPATH': '',
- 'COVERAGE_INFO': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/coverage.info',
+ 'COVERAGE_INFO': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/coverage.info',
  'COVERAGE_LCOV_OPTIONS': '--rc lcov_branch_coverage=1',
- 'COVERAGE_REPORT': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/lcov-report',
+ 'COVERAGE_REPORT': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build/lcov-report',
  'COVERAGE_REPORT_OPTIONS': '--rc lcov_branch_coverage=1 --branch-coverage '
                             '--title "CPython 3.11 LCOV report [commit $(shell '
                             ')]"',
  'CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-             '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
+             '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
  'CXX': 'g++',
- 'DECIMAL_CFLAGS': '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_decimal/libmpdec '
+ 'DECIMAL_CFLAGS': '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_decimal/libmpdec '
                    '-DCONFIG_64=1 -DANSI=1 -DHAVE_UINT128_T=1',
  'DECIMAL_LDFLAGS': '-lm Modules/_decimal/libmpdec/libmpdec.a',
- 'DEEPFREEZE_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/deepfreeze.py '
+ 'DEEPFREEZE_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/deepfreeze.py '
                     '_bootstrap_python '
-                    '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Programs/_freeze_module.py '
+                    '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Programs/_freeze_module.py '
                     '\\',
  'DEEPFREEZE_OBJS': 'Python/deepfreeze/deepfreeze.o',
  'DESTDIRS': '/usr/local /usr/local/lib /usr/local/lib/python3.11 '
@@ -86,7 +86,7 @@ build_time_vars = {'ABIFLAGS': '',
  'ENSUREPIP': 'upgrade',
  'EXE': '',
  'EXEMODE': 755,
- 'EXPAT_CFLAGS': '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/expat',
+ 'EXPAT_CFLAGS': '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/expat',
  'EXPAT_LDFLAGS': '-lm Modules/expat/libexpat.a',
  'EXPORTSFROM': '',
  'EXPORTSYMS': '',
@@ -96,11 +96,11 @@ build_time_vars = {'ABIFLAGS': '',
  'FILEMODE': 644,
  'FLOAT_WORDS_BIGENDIAN': 0,
  'FREEZE_MODULE': './_bootstrap_python '
-                  '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Programs/_freeze_module.py',
+                  '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Programs/_freeze_module.py',
  'FREEZE_MODULE_BOOTSTRAP': './Programs/_freeze_module',
  'FREEZE_MODULE_BOOTSTRAP_DEPS': 'Programs/_freeze_module',
  'FREEZE_MODULE_DEPS': '_bootstrap_python '
-                       '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Programs/_freeze_module.py',
+                       '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Programs/_freeze_module.py',
  'FROZEN_FILES_IN': '\\',
  'FROZEN_FILES_OUT': '\\',
  'GETPGRP_HAVE_ARG': 0,
@@ -613,30 +613,30 @@ build_time_vars = {'ABIFLAGS': '',
  'LIBDEST': '/usr/local/lib/python3.11',
  'LIBDIR': '/usr/local/lib',
  'LIBEXPAT_A': 'Modules/expat/libexpat.a',
- 'LIBEXPAT_CFLAGS': '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/expat '
+ 'LIBEXPAT_CFLAGS': '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/expat '
                     '-Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 '
                     '-Wextra -Wno-unused-parameter '
                     '-Wno-missing-field-initializers -Wstrict-prototypes '
                     '-Werror=implicit-function-declaration '
                     '-fvisibility=hidden  '
-                    '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
+                    '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
                     '-IObjects -IInclude -IPython -I. '
-                    '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
+                    '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
                     '-fPIC',
  'LIBEXPAT_HEADERS': '\\',
  'LIBEXPAT_OBJS': '\\',
  'LIBFFI_INCLUDEDIR': '',
  'LIBM': '-lm',
  'LIBMPDEC_A': 'Modules/_decimal/libmpdec/libmpdec.a',
- 'LIBMPDEC_CFLAGS': '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_decimal/libmpdec '
+ 'LIBMPDEC_CFLAGS': '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_decimal/libmpdec '
                     '-DCONFIG_64=1 -DANSI=1 -DHAVE_UINT128_T=1 -Wsign-compare '
                     '-DNDEBUG -g -fwrapv -O3 -Wall -std=c11 -Wextra '
                     '-Wno-unused-parameter -Wno-missing-field-initializers '
                     '-Wstrict-prototypes -Werror=implicit-function-declaration '
                     '-fvisibility=hidden  '
-                    '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
+                    '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
                     '-IObjects -IInclude -IPython -I. '
-                    '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
+                    '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
                     '-fPIC',
  'LIBMPDEC_HEADERS': '\\',
  'LIBMPDEC_OBJS': '\\',
@@ -669,7 +669,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MAINCC': 'gcc',
  'MAJOR_IN_MKDEV': 0,
  'MAJOR_IN_SYSMACROS': 1,
- 'MAKESETUP': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/makesetup',
+ 'MAKESETUP': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/makesetup',
  'MANDIR': '/usr/local/share/man',
  'MKDIR_P': '/usr/bin/mkdir -p',
  'MODBUILT_NAMES': 'atexit  faulthandler  posix  _signal  _tracemalloc  '
@@ -699,7 +699,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_BINASCII_CFLAGS': '-DUSE_ZLIB_CRC32 -DWITH_GZFILEOP',
  'MODULE_BINASCII_LDFLAGS': '-lz',
  'MODULE_BINASCII_STATE': 'yes',
- 'MODULE_CMATH_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_math.h',
+ 'MODULE_CMATH_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_math.h',
  'MODULE_CMATH_LDFLAGS': '-lm',
  'MODULE_CMATH_STATE': 'yes',
  'MODULE_ERRNO_LDFLAGS': '',
@@ -708,7 +708,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_FCNTL_STATE': 'yes',
  'MODULE_GRP_STATE': 'yes',
  'MODULE_ITERTOOLS_LDFLAGS': '',
- 'MODULE_MATH_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_math.h',
+ 'MODULE_MATH_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_math.h',
  'MODULE_MATH_LDFLAGS': '-lm',
  'MODULE_MATH_STATE': 'yes',
  'MODULE_MMAP_STATE': 'yes',
@@ -721,7 +721,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_POSIX_LDFLAGS': '',
  'MODULE_PWD_LDFLAGS': '',
  'MODULE_PWD_STATE': 'yes',
- 'MODULE_PYEXPAT_CFLAGS': '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/expat',
+ 'MODULE_PYEXPAT_CFLAGS': '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/expat',
  'MODULE_PYEXPAT_DEPS': '\\ Modules/expat/libexpat.a',
  'MODULE_PYEXPAT_LDFLAGS': '-lm Modules/expat/libexpat.a',
  'MODULE_PYEXPAT_STATE': 'yes',
@@ -732,8 +732,8 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE_TERMIOS_STATE': 'yes',
  'MODULE_TIME_LDFLAGS': '',
  'MODULE_TIME_STATE': 'yes',
- 'MODULE_UNICODEDATA_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/unicodedata_db.h '
-                            '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/unicodename_db.h',
+ 'MODULE_UNICODEDATA_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/unicodedata_db.h '
+                            '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/unicodename_db.h',
  'MODULE_UNICODEDATA_STATE': 'yes',
  'MODULE_XXLIMITED_35_STATE': 'yes',
  'MODULE_XXLIMITED_STATE': 'yes',
@@ -745,22 +745,22 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__ASYNCIO_STATE': 'yes',
  'MODULE__BISECT_STATE': 'yes',
  'MODULE__BLAKE2_CFLAGS': '',
- 'MODULE__BLAKE2_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2-config.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2-impl.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2b-load-sse2.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2b-load-sse41.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2b-ref.c '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2b-round.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2b.c '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s-load-sse2.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s-load-sse41.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s-load-xop.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s-ref.c '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s-round.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s.c '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/blake2module.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
+ 'MODULE__BLAKE2_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2-config.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2-impl.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2b-load-sse2.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2b-load-sse41.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2b-ref.c '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2b-round.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2b.c '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s-load-sse2.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s-load-sse41.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s-load-xop.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s-ref.c '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s-round.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/impl/blake2s.c '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_blake2/blake2module.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
  'MODULE__BLAKE2_LDFLAGS': '',
  'MODULE__BLAKE2_STATE': 'yes',
  'MODULE__BZ2_CFLAGS': '',
@@ -779,19 +779,19 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__CRYPT_LDFLAGS': '-lcrypt',
  'MODULE__CRYPT_STATE': 'yes',
  'MODULE__CSV_STATE': 'yes',
- 'MODULE__CTYPES_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ctypes/ctypes.h',
+ 'MODULE__CTYPES_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ctypes/ctypes.h',
  'MODULE__CTYPES_TEST_LDFLAGS': '-lm',
  'MODULE__CTYPES_TEST_STATE': 'yes',
  'MODULE__DATETIME_LDFLAGS': '-lm',
  'MODULE__DATETIME_STATE': 'yes',
- 'MODULE__DECIMAL_CFLAGS': '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_decimal/libmpdec '
+ 'MODULE__DECIMAL_CFLAGS': '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_decimal/libmpdec '
                            '-DCONFIG_64=1 -DANSI=1 -DHAVE_UINT128_T=1',
- 'MODULE__DECIMAL_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_decimal/docstrings.h '
+ 'MODULE__DECIMAL_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_decimal/docstrings.h '
                          '\\ Modules/_decimal/libmpdec/libmpdec.a',
  'MODULE__DECIMAL_LDFLAGS': '-lm Modules/_decimal/libmpdec/libmpdec.a',
  'MODULE__DECIMAL_STATE': 'yes',
- 'MODULE__ELEMENTTREE_CFLAGS': '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/expat',
- 'MODULE__ELEMENTTREE_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/pyexpat.c '
+ 'MODULE__ELEMENTTREE_CFLAGS': '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/expat',
+ 'MODULE__ELEMENTTREE_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/pyexpat.c '
                              '\\ Modules/expat/libexpat.a',
  'MODULE__ELEMENTTREE_STATE': 'yes',
  'MODULE__FUNCTOOLS_LDFLAGS': '',
@@ -799,12 +799,12 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__GDBM_LDFLAGS': '-lgdbm',
  'MODULE__GDBM_STATE': 'yes',
  'MODULE__HASHLIB_CFLAGS': '',
- 'MODULE__HASHLIB_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
+ 'MODULE__HASHLIB_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
  'MODULE__HASHLIB_LDFLAGS': '-lcrypto',
  'MODULE__HASHLIB_STATE': 'yes',
  'MODULE__HEAPQ_STATE': 'yes',
- 'MODULE__IO_CFLAGS': '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_io',
- 'MODULE__IO_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_io/_iomodule.h',
+ 'MODULE__IO_CFLAGS': '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_io',
+ 'MODULE__IO_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_io/_iomodule.h',
  'MODULE__IO_LDFLAGS': '',
  'MODULE__IO_STATE': 'yes',
  'MODULE__JSON_STATE': 'yes',
@@ -813,57 +813,57 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__LZMA_CFLAGS': '',
  'MODULE__LZMA_LDFLAGS': '-llzma',
  'MODULE__LZMA_STATE': 'yes',
- 'MODULE__MD5_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
+ 'MODULE__MD5_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
  'MODULE__MD5_STATE': 'yes',
  'MODULE__MULTIBYTECODEC_STATE': 'yes',
- 'MODULE__MULTIPROCESSING_CFLAGS': '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_multiprocessing',
+ 'MODULE__MULTIPROCESSING_CFLAGS': '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_multiprocessing',
  'MODULE__MULTIPROCESSING_STATE': 'yes',
  'MODULE__OPCODE_STATE': 'yes',
  'MODULE__OPERATOR_LDFLAGS': '',
  'MODULE__PICKLE_STATE': 'yes',
- 'MODULE__POSIXSHMEM_CFLAGS': '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_multiprocessing',
+ 'MODULE__POSIXSHMEM_CFLAGS': '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_multiprocessing',
  'MODULE__POSIXSHMEM_LDFLAGS': '',
  'MODULE__POSIXSHMEM_STATE': 'yes',
  'MODULE__POSIXSUBPROCESS_STATE': 'yes',
  'MODULE__QUEUE_STATE': 'yes',
  'MODULE__RANDOM_STATE': 'yes',
  'MODULE__SCPROXY_STATE': 'n/a',
- 'MODULE__SHA1_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
+ 'MODULE__SHA1_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
  'MODULE__SHA1_STATE': 'yes',
- 'MODULE__SHA256_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
+ 'MODULE__SHA256_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
  'MODULE__SHA256_STATE': 'yes',
- 'MODULE__SHA3_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sha3/sha3.c '
-                      '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sha3/sha3.h '
-                      '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
+ 'MODULE__SHA3_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sha3/sha3.c '
+                      '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sha3/sha3.h '
+                      '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
  'MODULE__SHA3_STATE': 'yes',
- 'MODULE__SHA512_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
+ 'MODULE__SHA512_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/hashlib.h',
  'MODULE__SHA512_STATE': 'yes',
  'MODULE__SIGNAL_LDFLAGS': '',
- 'MODULE__SOCKET_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/socketmodule.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/addrinfo.h '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/getaddrinfo.c '
-                        '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/getnameinfo.c',
+ 'MODULE__SOCKET_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/socketmodule.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/addrinfo.h '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/getaddrinfo.c '
+                        '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/getnameinfo.c',
  'MODULE__SOCKET_STATE': 'yes',
- 'MODULE__SQLITE3_CFLAGS': '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite',
- 'MODULE__SQLITE3_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/connection.h '
-                         '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/cursor.h '
-                         '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/microprotocols.h '
-                         '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/module.h '
-                         '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/prepare_protocol.h '
-                         '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/row.h '
-                         '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/util.h',
+ 'MODULE__SQLITE3_CFLAGS': '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite',
+ 'MODULE__SQLITE3_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/connection.h '
+                         '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/cursor.h '
+                         '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/microprotocols.h '
+                         '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/module.h '
+                         '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/prepare_protocol.h '
+                         '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/row.h '
+                         '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_sqlite/util.h',
  'MODULE__SQLITE3_LDFLAGS': '-lsqlite3',
  'MODULE__SQLITE3_STATE': 'yes',
  'MODULE__SRE_LDFLAGS': '',
  'MODULE__SSL_CFLAGS': '',
- 'MODULE__SSL_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl.h '
-                     '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl/cert.c '
-                     '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl/debughelpers.c '
-                     '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl/misc.c '
-                     '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl_data.h '
-                     '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl_data_111.h '
-                     '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl_data_300.h '
-                     '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/socketmodule.h',
+ 'MODULE__SSL_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl.h '
+                     '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl/cert.c '
+                     '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl/debughelpers.c '
+                     '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl/misc.c '
+                     '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl_data.h '
+                     '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl_data_111.h '
+                     '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/_ssl_data_300.h '
+                     '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/socketmodule.h',
  'MODULE__SSL_LDFLAGS': '-lssl -lcrypto',
  'MODULE__SSL_STATE': 'yes',
  'MODULE__STATISTICS_LDFLAGS': '-lm',
@@ -872,7 +872,7 @@ build_time_vars = {'ABIFLAGS': '',
  'MODULE__STRUCT_STATE': 'yes',
  'MODULE__SYMTABLE_LDFLAGS': '',
  'MODULE__TESTBUFFER_STATE': 'yes',
- 'MODULE__TESTCAPI_DEPS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/testcapi_long.h',
+ 'MODULE__TESTCAPI_DEPS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Modules/testcapi_long.h',
  'MODULE__TESTCAPI_STATE': 'yes',
  'MODULE__TESTCLINIC_STATE': 'yes',
  'MODULE__TESTIMPORTMULTIPLE_STATE': 'yes',
@@ -943,28 +943,28 @@ build_time_vars = {'ABIFLAGS': '',
                              '-Wstrict-prototypes '
                              '-Werror=implicit-function-declaration '
                              '-fvisibility=hidden  '
-                             '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
+                             '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
                              '-IObjects -IInclude -IPython -I. '
-                             '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
+                             '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
                              '-DPy_BUILD_CORE_BUILTIN',
  'PY_CFLAGS': '-Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall',
  'PY_CFLAGS_NODIST': '-std=c11 -Wextra -Wno-unused-parameter '
                      '-Wno-missing-field-initializers -Wstrict-prototypes '
                      '-Werror=implicit-function-declaration '
                      '-fvisibility=hidden  '
-                     '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal',
+                     '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal',
  'PY_COERCE_C_LOCALE': 1,
  'PY_CORE_CFLAGS': '-Wsign-compare -DNDEBUG -g -fwrapv -O3 -Wall -std=c11 '
                    '-Wextra -Wno-unused-parameter '
                    '-Wno-missing-field-initializers -Wstrict-prototypes '
                    '-Werror=implicit-function-declaration -fvisibility=hidden  '
-                   '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
+                   '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
                    '-IObjects -IInclude -IPython -I. '
-                   '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
+                   '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include '
                    '-DPy_BUILD_CORE',
  'PY_CORE_LDFLAGS': '',
  'PY_CPPFLAGS': '-IObjects -IInclude -IPython -I. '
-                '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
+                '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
  'PY_ENABLE_SHARED': 0,
  'PY_FORMAT_SIZE_T': '"z"',
  'PY_LDFLAGS': '',
@@ -979,9 +979,9 @@ build_time_vars = {'ABIFLAGS': '',
                         '-Wno-missing-field-initializers -Wstrict-prototypes '
                         '-Werror=implicit-function-declaration '
                         '-fvisibility=hidden  '
-                        '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
+                        '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include/internal '
                         '-IObjects -IInclude -IPython -I. '
-                        '-I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
+                        '-I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Include',
  'PY_SUPPORT_TIER': 1,
  'Py_DEBUG': 0,
  'Py_ENABLE_SHARED': 0,
@@ -1025,7 +1025,7 @@ build_time_vars = {'ABIFLAGS': '',
             'Modules/_sre   Modules/_xxtestfuzz   Modules/cjkcodecs   '
             'Modules/expat   Objects   Parser   Programs   Python   '
             'Python/frozen_modules   Python/deepfreeze',
- 'SRC_GDB_HOOKS': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/gdb/libpython.py',
+ 'SRC_GDB_HOOKS': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/gdb/libpython.py',
  'STATIC_LIBPYTHON': 1,
  'STDC_HEADERS': 1,
  'STRICT_SYSV_CURSES': "/* Don't use ncurses extensions */",
@@ -1039,7 +1039,7 @@ build_time_vars = {'ABIFLAGS': '',
  'TESTPYTHON': './python -E',
  'TESTPYTHONOPTS': '',
  'TESTRUNNER': './python -E '
-               '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/run_tests.py',
+               '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/run_tests.py',
  'TESTSUBDIRS': 'ctypes/test \\',
  'TESTTIMEOUT': 1200,
  'TEST_MODULES': 'yes',
@@ -1050,10 +1050,10 @@ build_time_vars = {'ABIFLAGS': '',
  'TZPATH': '/usr/share/zoneinfo:/usr/lib/zoneinfo:/usr/share/lib/zoneinfo:/etc/zoneinfo',
  'UNICODE_DEPS': '\\',
  'UNIVERSALSDK': '',
- 'UPDATE_FILE': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/update_file.py',
+ 'UPDATE_FILE': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/Tools/scripts/update_file.py',
  'USE_COMPUTED_GOTOS': 0,
  'VERSION': '3.11',
- 'VPATH': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3',
+ 'VPATH': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3',
  'WASM_ASSETS_DIR': './usr/local',
  'WASM_STDLIB': './usr/local/lib/python3.11/os.py',
  'WHEEL_PKG_DIR': '',
@@ -1070,9 +1070,9 @@ build_time_vars = {'ABIFLAGS': '',
  'WITH_VALGRIND': 0,
  'X87_DOUBLE_ROUNDING': 0,
  'XMLLIBSUBDIRS': 'xml xml/dom xml/etree xml/parsers xml/sax',
- 'abs_builddir': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build',
- 'abs_srcdir': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3',
+ 'abs_builddir': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3/native-build',
+ 'abs_srcdir': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3',
  'datarootdir': '/usr/local/share',
  'exec_prefix': '/usr/local',
  'prefix': '/usr/local',
- 'srcdir': '/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3'}
+ 'srcdir': '/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/other_builds/hostpython3/desktop/hostpython3'}

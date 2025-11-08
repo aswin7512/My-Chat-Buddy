@@ -16,12 +16,12 @@ our %config = (
   CC => "armv7a-linux-androideabi21-clang",
   CFLAGS => [ "-target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC" ],
   CPPDEFINES => [ "__ANDROID_API__=21" ],
-  CPPFLAGS => [ "-DANDROID -I/home/a_swi_nrd/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/armeabi-v7a/include/python3.1" ],
+  CPPFLAGS => [ "-DANDROID -I/home/a_swi_nrd/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/chatbuddy/armeabi-v7a/include/python3.1" ],
   CPPINCLUDES => [  ],
   CXX => "/home/a_swi_nrd/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC",
   CXXFLAGS => [ "-target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC" ],
   HASHBANGPERL => "/usr/bin/env perl",
-  LDFLAGS => [ "  -L/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/armeabi-v7a" ],
+  LDFLAGS => [ "  -L/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/chatbuddy/armeabi-v7a" ],
   LDLIBS => [ "-lm" ],
   PERL => "/usr/bin/perl",
   RANLIB => ":",
@@ -70,12 +70,12 @@ our %config = (
       "BUILDFILE" => undef,
       "CC" => "clang",
       "CFLAGS" => "-target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC",
-      "CPPFLAGS" => "-DANDROID -I/home/a_swi_nrd/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/myapp/armeabi-v7a/include/python3.1",
+      "CPPFLAGS" => "-DANDROID -I/home/a_swi_nrd/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/sysroot/usr/include -I/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/python-installs/chatbuddy/armeabi-v7a/include/python3.1",
       "CROSS_COMPILE" => undef,
       "CXX" => "/home/a_swi_nrd/.buildozer/android/platform/android-ndk-r25b/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ -target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC",
       "CXXFLAGS" => "-target armv7a-linux-androideabi21 -fomit-frame-pointer -march=armv7-a -mfloat-abi=softfp -mfpu=vfp -mthumb -fPIC",
       "HASHBANGPERL" => undef,
-      "LDFLAGS" => "  -L/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/myapp/armeabi-v7a",
+      "LDFLAGS" => "  -L/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/libs_collections/chatbuddy/armeabi-v7a",
       "LDLIBS" => "-lm",
       "OPENSSL_LOCAL_CONFIG_DIR" => undef,
       "PERL" => undef,
@@ -3159,8 +3159,6 @@ our %unified_info = (
                 {
                     "deps" =>
                         [
-                            "ssl/packet.o",
-                            "ssl/tls13_enc.o",
                             "ssl/bio_ssl.o",
                             "ssl/d1_lib.o",
                             "ssl/d1_msg.o",
@@ -3190,6 +3188,8 @@ our %unified_info = (
                             "ssl/t1_trce.o",
                             "ssl/tls13_enc.o",
                             "ssl/tls_srp.o",
+                            "ssl/packet.o",
+                            "ssl/tls13_enc.o",
                         ],
                     "products" =>
                         {

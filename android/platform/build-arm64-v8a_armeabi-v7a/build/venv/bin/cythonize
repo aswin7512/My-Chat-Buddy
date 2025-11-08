@@ -1,4 +1,4 @@
-#!/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/bin/python
+#!/home/a_swi_nrd/sample/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/venv/bin/python
 import sys
 from Cython.Build.Cythonize import main
 if __name__ == '__main__':
