@@ -1,4 +1,4 @@
-# Aswin's Chatbot
+# My Chat Buddy
 
 This is a custom chatbot application built in Python using the Kivy framework. It provides a clean, responsive user interface to connect with and chat with powerful AI language models through the OpenRouter API.
 
