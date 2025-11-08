@@ -14,7 +14,7 @@ from kivy.core.window import Window
 from kivy.utils import escape_markup # To safely display text
 
 # 🔑 Your OpenRouter API key here
-API_KEY = "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"
+API_KEY = "api key here"
 URL = "https://openrouter.ai/api/v1/chat/completions"
 
 # 📝 Choose your model here
