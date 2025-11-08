@@ -1,0 +1,29 @@
+/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/obj/local/armeabi-v7a/objs-debug/webpdemux/src/demux/demux.o: \
+  /home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/demux/demux.c \
+  /home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/utils/utils.h \
+  /home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/dsp/dsp.h \
+  /home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/types.h \
+  /home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/decode.h \
+  /home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/./types.h \
+  /home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/demux.h \
+  /home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/./decode.h \
+  /home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/./mux_types.h \
+  /home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/format_constants.h
+
+/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/utils/utils.h:
+
+/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/dsp/dsp.h:
+
+/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/types.h:
+
+/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/decode.h:
+
+/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/./types.h:
+
+/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/demux.h:
+
+/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/./decode.h:
+
+/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/./mux_types.h:
+
+/home/a_swi_nrd/WIT/WIT/chatbot/.buildozer/android/platform/build-arm64-v8a_armeabi-v7a/build/bootstrap_builds/sdl2/jni/SDL2_image/external/libwebp/src/webp/format_constants.h:
